@@ -18,7 +18,7 @@ class GeneratorTest extends TestCase
 		]);
 		$app->bind('longest_user_monologue', fn() => $app->channels->get('user')->getLongestMonologue());
 		$app->bind('longest_customer_monologue', fn() => $app->channels->get('customer')->getLongestMonologue());
-		$app->bind('user_talk_percentage', fn() => $app->channels->get('customer')->getActivityPercentage());
+		$app->bind('user_talk_percentage', fn() => $app->channels->get('user')->getActivityPercentage());
 
 		$output = $app->getOutput();
 
