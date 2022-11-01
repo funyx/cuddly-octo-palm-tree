@@ -10,11 +10,16 @@
 	}
   ],
   "autoload": {
-	"\\Funyx\\Waveform" : "src"
+	"psr-4": {
+	  "Waveform\\" : "src/"
+	}
   },
   "autoload-dev": {
-	"\\Funyx\\Waveform\\Tests" : "tests"
+	"psr-4": {
+	  "Waveform\\Tests\\" : "tests/"
+	}
   },
-  "require": {
+  "require-dev": {
+    "phpunit/phpunit": "^9"
   }
 }
