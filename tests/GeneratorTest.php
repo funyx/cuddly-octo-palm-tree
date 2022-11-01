@@ -1,6 +1,6 @@
 <?php
 
-namespace Funyx\Waveform\Tests;
+namespace Waveform\Tests;
 
 use Waveform\Kernel;
 use PHPUnit\Framework\TestCase;

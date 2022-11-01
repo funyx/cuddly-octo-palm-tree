@@ -1,6 +1,6 @@
 <?php
 
-namespace Funyx\Waveform\Tests;
+namespace Waveform\Tests;
 
 use PHPUnit\Framework\TestCase;
 use Waveform\LineParser;
